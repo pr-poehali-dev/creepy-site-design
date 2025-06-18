@@ -10,12 +10,15 @@ const Index = () => {
       <HorrorBackground />
       <HorrorEffects />
 
-      <div className="relative z-10 flex flex-col items-center justify-center h-screen">
-        <div className="flex-1 flex flex-col justify-center">
+      <div className="relative z-10 flex flex-col h-screen">
+        <div
+          className="flex-1 flex flex-col justify-center items-center"
+          style={{ height: "45%" }}
+        >
           <HorrorTitle />
         </div>
 
-        <div className="pb-24">
+        <div className="flex-1 flex justify-center items-start pt-16">
           <EnterButton />
         </div>
       </div>
